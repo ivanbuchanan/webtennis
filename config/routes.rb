@@ -1,7 +1,19 @@
 Webtennis::Application.routes.draw do
+  
+ #Sessions Users
+ get "logout_user" => "sessions#destroy", :as => "logout_user"
+ post "login_user" => "sessions#new", :as => "login_user"
+
+  #Users
+  get "signup" => "users#new", :as => "signup"
+
+  get "sessions/new"
+  get "sessions/destroy"
   get "static_pages/home"
   get "static_pages/pros"
+  
   resources :users
+  resources :sessions
   
   root :to => "static_pages#home"
 

@@ -9,6 +9,7 @@ gem 'jquery-ui-rails'
 gem 'less'
 gem 'execjs'
 gem 'awesome_print'
+gem 'protected_attributes'
 
 #Authentication Framework
 gem 'authlogic','~>3.2.0'
@@ -19,14 +20,14 @@ gem 'omniauth-linkedin','~>0.1.0'
 gem 'omniauth-openid','~>1.0.1'
 
 #Search Utility
-gem 'meta_search'
-gem 'nokogiri','~>1.5.9'
-gem 'rsolr','~>1.0.9'
-gem 'rsolr-ext','~>1.0.3'
-gem 'hash_struct','~>0.3'
+# gem 'meta_search'
+# gem 'nokogiri','~>1.5.9'
+# gem 'rsolr','~>1.0.9'
+# gem 'rsolr-ext','~>1.0.3'
+# gem 'hash_struct','~>0.3'
 
 #ActiveModels has_secure_password
-gem "bcrypt-ruby", '~>3.0.1',:require => "bcrypt"
+gem "bcrypt-ruby",:require => "bcrypt"
 
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'will_paginate', '3.0.4'
