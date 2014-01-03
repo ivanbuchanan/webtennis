@@ -6,7 +6,7 @@ gem 'rails', '4.0.1'
 gem 'json'
 gem 'i18n'
 gem 'jquery-ui-rails'
-gem 'less'
+# gem 'less'
 gem 'execjs'
 gem 'awesome_print'
 gem 'protected_attributes'
@@ -67,8 +67,8 @@ end
 gem 'jquery-rails'
 
 # Twitter bootstrap
-gem 'therubyracer'
-gem 'less-rails'
+# gem 'therubyracer'
+# gem 'less-rails'
 # gem 'twitter-bootstrap-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
