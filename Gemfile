@@ -3,6 +3,16 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
+gem 'json'
+gem 'i18n'
+gem 'jquery-ui-rails'
+gem 'less'
+gem 'execjs'
+gem 'awesome_print'
+
+#ActiveModels has_secure_password
+gem "bcrypt-ruby", '~>3.0.1',:require => "bcrypt"
+
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
@@ -55,8 +65,10 @@ end
 # Use unicorn as the app server
 # gem 'unicorn'
 
+#Easy deployment in Amazon EC2
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
+# gem 'rvm-capistrano'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
