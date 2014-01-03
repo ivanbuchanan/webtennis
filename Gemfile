@@ -4,20 +4,20 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 
 gem 'json'
-gem 'i18n'
-gem 'jquery-ui-rails'
+# gem 'i18n'
+# gem 'jquery-ui-rails'
 # gem 'less'
-gem 'execjs'
-gem 'awesome_print'
+# gem 'execjs'
+# gem 'awesome_print'
 gem 'protected_attributes'
 
 #Authentication Framework
-gem 'authlogic','~>3.2.0'
-gem 'omniauth','~>1.1.4'
-gem 'omniauth-facebook','~>1.4.1'
-gem 'omniauth-twitter','~>1.0.0'
-gem 'omniauth-linkedin','~>0.1.0'
-gem 'omniauth-openid','~>1.0.1'
+# gem 'authlogic','~>3.2.0'
+# gem 'omniauth','~>1.1.4'
+# gem 'omniauth-facebook','~>1.4.1'
+# gem 'omniauth-twitter','~>1.0.0'
+# gem 'omniauth-linkedin','~>0.1.0'
+# gem 'omniauth-openid','~>1.0.1'
 
 #Search Utility
 # gem 'meta_search'
@@ -29,9 +29,9 @@ gem 'omniauth-openid','~>1.0.1'
 #ActiveModels has_secure_password
 gem "bcrypt-ruby",:require => "bcrypt"
 
-gem 'bootstrap-sass', '2.3.2.0'
-gem 'will_paginate', '3.0.4'
-gem 'bootstrap-will_paginate', '0.0.9'
+# gem 'bootstrap-sass', '2.3.2.0'
+# gem 'will_paginate', '3.0.4'
+# gem 'bootstrap-will_paginate', '0.0.9'
 
 # Use postgres since Heroku does not support sqlite
 group :production do
@@ -72,10 +72,10 @@ gem 'jquery-rails'
 # gem 'twitter-bootstrap-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+# gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
