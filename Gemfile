@@ -10,6 +10,21 @@ gem 'less'
 gem 'execjs'
 gem 'awesome_print'
 
+#Authentication Framework
+gem 'authlogic','~>3.2.0'
+gem 'omniauth','~>1.1.4'
+gem 'omniauth-facebook','~>1.4.1'
+gem 'omniauth-twitter','~>1.0.0'
+gem 'omniauth-linkedin','~>0.1.0'
+gem 'omniauth-openid','~>1.0.1'
+
+#Search Utility
+gem 'meta_search'
+gem 'nokogiri','~>1.5.9'
+gem 'rsolr','~>1.0.9'
+gem 'rsolr-ext','~>1.0.3'
+gem 'hash_struct','~>0.3'
+
 #ActiveModels has_secure_password
 gem "bcrypt-ruby", '~>3.0.1',:require => "bcrypt"
 
