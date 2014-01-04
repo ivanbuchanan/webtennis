@@ -1,6 +1,12 @@
 class User < ActiveRecord::Base
 
+before_save :create_unique_profile_id
 
+def create_unique_profile_id
+    begin
+      self.profile_id=SecureRandom.base64(8)
+    end while self.class.exists?(:profile_id =>profile_id)
+  end
 
 include BCrypt
   attr_accessible :email, :first_name, :last_name, :password, :password_confirmation

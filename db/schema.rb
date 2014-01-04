@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140103014549) do
+ActiveRecord::Schema.define(version: 20140104180043) do
 
   create_table "users", force: true do |t|
     t.string   "name"
@@ -31,6 +31,8 @@ ActiveRecord::Schema.define(version: 20140103014549) do
     t.boolean  "occassional_player"
     t.string   "password_hash"
     t.string   "password_salt"
+    t.string   "profile_name"
+    t.string   "profile_id"
   end
 
 end
