@@ -298,3 +298,7 @@ html[xmlns] .clearfix { display: block; }
     top: 50% !important;
     left: 50%;
 }
+
+div.navbar div.navbar-inner ul.nav a:hover {
+    color: #fff !important; 
+}
