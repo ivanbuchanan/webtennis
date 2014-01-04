@@ -300,5 +300,6 @@ html[xmlns] .clearfix { display: block; }
 }
 
 div.navbar div.navbar-inner ul.nav a:hover {
-    color: #fff !important; 
+    color: #fff !important;
+    background-color: #0000E6
 }
